@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Engineering</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+
+<body class="bg-gray-900 text-white" id="Home">
+    <nav class="bg-gray-800 p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold">Study With Abhay</a>
+            <div class="relative inline-block text-left">
+                <button id="dropdownButton" class="bg-gray-800 text-white px-4 py-2 rounded-lg">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16">
+                        </path>
+                    </svg>
+                </button>
+                <div id="dropdownMenu"
+                    class="hidden absolute z-10 top-full left-0 mt-2 w-32 bg-gray-800 rounded-lg shadow-lg">
+                    <ul class="py-2">
+                        <li class="px-4 py-2 hover:bg-gray-700"><a href="#Home">Home</a></li>
+                        <li class="px-4 py-2 hover:bg-gray-700"><a
+                                href="https://portfolio-abhay-pratap-chaurasiya.netlify.app/" target="_blank">About</a>
+                        </li>
+                        <li class="px-4 py-2 hover:bg-gray-700"><a href="#Contacts">Contacts</a></li>
+                        <li class="px-4 py-2 hover:bg-gray-700"><a href="https://github.com/Abhay62972"
+                                target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                const dropdownButton = document.getElementById('dropdownButton');
+                const dropdownMenu = document.getElementById('dropdownMenu');
+
+                dropdownButton.addEventListener('click', () => {
+                    dropdownMenu.classList.toggle('hidden');
+                });
+            </script>
+        </div>
+    </nav>
+
+    <div class=" p-10">
+        <h1 class="text-7xl font-semibold animated-text">
+            <span id="element"> Chemical Engineering</span>
+        </h1>
+    </div>
+
+    <!-- Semester 1 -->
+    <div class="container mx-auto mt-6">
+        <h1 class="text-2xl font-semibold">Semester 1</h1>
+        <!-- Displaying subject names with 6 chapters each -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+            <!-- Subject 1 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-101 (Calculus and Linear Algebra)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 2 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCH-111 (Chemical Processes and Operations)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 3 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCH-112 (Chemical Laboratory Skills)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 4 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BEE-104 (Introduction to Electrical Engineering )</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 5 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BEC-105 (Introduction to Electronics Engineering )</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 6 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-126 (Applied Physics)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 7 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BHM-104 (Human Values and Professional Ethics)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 2 -->
+    <div class="container mx-auto mt-6">
+        <h1 class="text-2xl font-semibold">Semester 2</h1>
+        <!-- Displaying subject names with 6 chapters each -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+            <!-- Subject 1 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-158 (Differential Equations and Numerical Methods)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 2 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCE-101 (Engineering Graphics)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 3 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-195 (Environmental Engineering Science)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 4 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCH-121 (Process Plant Saftey)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 5 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BME-151 (Technical Art )</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 6 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BHM-151 (Professional Communication)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 7 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCH-121 (Fluid Flow Operation)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Semester 3 -->
+    <div class="container mx-auto mt-6">
+        <h1 class="text-2xl font-semibold">Semester 3</h1>
+        <!-- Displaying subject names with 6 chapters each -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
+            <!-- Subject 1 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-242 (Physical Chemistry)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 2 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BME-210 (Strength of Materials)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 3 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BHM-201 (Scientific and Technical Writing)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 4 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCH-201 (Chemical Engineering Thermodynamics-I)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 5 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BCh-202 (Introduction to Electronics Engineering )</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+            <!-- Subject 6 -->
+            <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+                <h2 class="text-lg font-semibold mb-2">BSM-126 (Applied Physics)</h2>
+                <ul>
+                    <a href="">
+                        <li>Unit 1</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 2</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 3</li>
+                    </a>
+                    <a href="">
+                        <li>Unit 4</li>
+                    </a>
+                    <a href="">
+                        <li>PYQs</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
